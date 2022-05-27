@@ -1,0 +1,14 @@
+server:
+  port: 8083
+
+twitter:  
+  endpoint: twitter-search:new crypto?delay=300000
+  
+camel:  component:    telegram:
+      enabled: true      authorization-token: 2030627945:AAHp9sTaM4wL7lAhf_j5jPd9Kly_JWIJP5c    twitter-search:      access-token: 1449595933977563136-pDoD6ORrfeF9VUa0fQy8aEvoMNyHEy 
+      access-token-secret: B6aTNsxUN3CJ8W9q5OyJITVbJRtvDoEKDBnqZWcND2zy3
+      consumer-key: E0Urwq8rJWGkfoEYpgdKmCvmf
+      consumer-secret: 8nncfqrr1Q8fFlVn8pjz7QRlh4L8AlV10SBdiMNTcFWihFpjpW
+
+
+  
