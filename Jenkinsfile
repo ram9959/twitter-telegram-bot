@@ -25,7 +25,7 @@ pipeline {
 		
 		stage("Login") {
 			steps {
-				bat "echo $DOCKERHUB_CREDENTIALS | docker login -u vo43sl --password-stdin"
+				bat "echo $DOCKERHUB_CREDENTIALS | docker login -u vo43sl -p Ramreddy@2000"
 			}
 		}
 		
